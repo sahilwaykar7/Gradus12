@@ -1,0 +1,2444 @@
+{
+  "Title": "Translation demo",
+  "WelcomeMessage": "Welcome to the international demo application",
+  "English": "English",
+  "Spanish": "Spanish",
+  "demo": {
+    "title": "Translation demo",
+    "text": "This is a simple demonstration app for ngx-translate",
+    "greeting": "Hello {{name}}!"
+  },
+  "session": {
+    "shared": {
+      "required": "Required",
+      "columns": "Columns",
+      "no_table_data": "No Data found",
+      "positive": "less than 0. Accepts values greater than 0",
+      "submit": {
+        "tool-tip": "",
+        "label": "Submit",
+        "error": ""
+      },
+      "excel_sheet": {
+        "tool-tip": "",
+        "label": "Excel Sheet",
+        "error": ""
+      },
+      "update": {
+        "tool-tip": "",
+        "label": "Update",
+        "error": ""
+      },
+      "field": {
+        "branch": {
+          "tool-tip": "Select a branch from the dropdown list &#13;",
+          "label": "Branch",
+          "error": ""
+        },
+        "finyear": {
+          "tool-tip": "Select a financial year from the dropdown list &#13;",
+          "label": "Financial Year",
+          "error": ""
+        }
+      }
+    },
+    "reports": {
+      "stock_report": {
+        "stock_less_than_n_qty": {
+          "godown": {
+            "STRP001001": "Select a godown from the dropdown list {{ nextLine }} A mandatory field",
+            "label": "Godown",
+            "error": ""
+          },
+          "make": {
+            "STRP001002": "type in few letters of the brand {{ nextLine }} if you want to generate the report for a particular brand. this is optional",
+            "label": "Make",
+            "error": ""
+          },
+          "from_item_name": {
+            "tool_tip": "Select the ending item code or product code or catref no {{ nextLine }} you may enter part of your selection and select",
+            "label": "From Item Name",
+            "error": "From Item Name is "
+          },
+          "to_item_name": {
+            "tool_tip": "Enter the quantity below which you want to generate report {{ nextLine }} will display all cards with closing quantity below the entered quantity",
+            "label": "To Item Name",
+            "error": "To Item Name is "
+          },
+          "quantity": {
+            "STRP001005": "type in quanity,which is mandatory",
+            "label": "Quantity",
+            "error": "Quantity is "
+          },
+          "submit": {
+            "tool_tip": "Submit",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "Excel Sheet",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "table": {
+            "panel_title": {
+              "label": "Stock Less Than N Quantity Report",
+              "error": ""
+            },
+            "modal_title": {
+              "label": "Stock Less Than N Qty Report Columns",
+              "error": ""
+            }
+          }
+        },
+        "godown_wise_stock_status_report_filter": {
+          "godown": {
+            "tool_tip": "Select a godown from the dropdown list",
+            "label": "Godown",
+            "error": ""
+          },
+          "from_item_name": {
+            "tool_tip": "Select the ending item code or product code or catref no {{ nextLine }} you may enter part of your selection and select",
+            "label": "From Item Name",
+            "error": "From Item Name is "
+          },
+          "to_item_name": {
+            "tool_tip": "Enter the quantity below which you want to generate report {{ nextLine }} will display all cards with closing quantity below the entered quantity",
+            "label": "To Item Name",
+            "error": "To Item Name is "
+          },
+          "make": {
+            "tool_tip": "Select the starting item code or product code or catref no {{ nextLine }} you may enter part of your selection and select",
+            "label": "Make",
+            "error": "Make is"
+          },
+          "group_by": {
+            "tool_tip": "",
+            "label": "Group By",
+            "error": "Group By is"
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By",
+            "error": "Order By is"
+          },
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": "As On Date is"
+          },
+          "branch": {
+            "tool_tip": "Select a Branch from Dropdown",
+            "label": "Branch",
+            "error": "Branch is"
+          },
+          "physical_location": {
+            "tool_tip": "",
+            "label": "Physical Location",
+            "error": "Physical Location is"
+          },
+          "quantity": {
+            "tool_tip": "type in few letters of the brand {{ nextLine }} if you want to generate the report for a particular brand. this is optional",
+            "label": "Quantity",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "Submit",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "Excel Sheet",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Godown Wise Stock Status Report",
+            "error": ""
+          },
+          "settings": {
+            "submit": {
+              "tool_tip": "Submit",
+              "label": "Submit"
+            },
+            "cancel": {
+              "tool_tip": "Cancel",
+              "label": "Cancel"
+            }
+          }
+        },
+        "item_ledger": {
+          "item_name": {
+            "tool_tip": "",
+            "label": "Item Name",
+            "error": "Item Name is "
+          },
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "select Branch from Dropdown",
+            "label": "Branch",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Item Ledger Report",
+            "error": ""
+          }
+        },
+        "stock_gateway": {
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As on Date",
+            "error": "As on Date is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from the dropdown list",
+            "label": "Godown",
+            "error": ""
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": ""
+          },
+          "item_main_group": {
+            "tool_tip": "",
+            "label": "Item Main Group",
+            "error": "Item Main Group is "
+          },
+          "item_sub_group": {
+            "tool_tip": "",
+            "label": "Item Sub Group",
+            "error": "Item Sub Group is "
+          },
+          "stock_category": {
+            "tool_tip": "",
+            "label": "Stock Category",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "stock_movement": {
+            "tool-tip": "",
+            "label": "Stock Movement",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": " Stock Gateway Report",
+            "error": ""
+          }
+        },
+        "datewise_stock_value_report": {
+          "branch": {
+            "tool_tip": "Select a Branch from dropdown",
+            "label": "Branch",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a Godown from dropdown",
+            "label": "Godown",
+            "error": ""
+          },
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Date Wise Stock Value Report",
+            "error": ""
+          },
+          "settings": {
+            "submit": "SUBMIT",
+            "cancel": "CANCEL"
+          }
+        },
+        "discrepancy_search_report_filter": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from Dropdown",
+            "label": "Godown",
+            "error": ""
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Type:",
+            "error": ""
+          },
+          "include_phased_out_items": {
+            "tool_tip": "",
+            "label": "Include Phased Out Items:",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Discrepancy Search Report",
+            "error": ""
+          }
+        },
+        "stock_transfer_report_filter": {
+          "from_branch": {
+            "tool_tip": "Select From Branch from the dropdown list",
+            "label": "From Branch",
+            "error": ""
+          },
+          "to_branch": {
+            "tool_tip": "Select To Branch from the dropdown list",
+            "label": "To Branch",
+            "error": ""
+          },
+          "from_godown": {
+            "tool_tip": "Select From godown from the dropdown list",
+            "label": "From Godown",
+            "error": ""
+          },
+          "to_godown": {
+            "tool_tip": "Select To godown from the dropdown list",
+            "label": "To Godown",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "Submit",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "Excel Sheet",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Stock Transfer Report",
+            "error": ""
+          },
+          "modal_title": {
+            "label": "Stock Transfer Report columns"
+          },
+          "column_submit": {
+            "tool_tip": "",
+            "label": "Submit",
+            "error": ""
+          },
+          "settings": {
+            "submit": {
+              "label": "Submit",
+              "error": ""
+            },
+            "cancel": {
+              "label": "Cancel",
+              "error": ""
+            }
+          }
+        },
+        "sr_dc_report": {
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": ""
+          },
+          "report_for": {
+            "tool_tip": "",
+            "label": "Report For",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "SR/DC Report",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          }
+        },
+        "gd_physical_location_stock_status_report_filter": {
+          "godown": {
+            "tool_tip": "",
+            "label": "Godown",
+            "error": ""
+          },
+          "physical_location": {
+            "tool_tip": "",
+            "label": "Physical Location",
+            "error": ""
+          },
+          "select_location": {
+            "tool_tip": "",
+            "label": "Select Location: ",
+            "error": ""
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Select Report Type: ",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Gd Physical Location Status Report",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          }
+        },
+        "godown_stock_banking_report_filter": {
+          "godown": {
+            "tool_tip": "Select Godown from dropdown",
+            "label": "Godown",
+            "error": ""
+          },
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": ""
+          },
+          "card_age": {
+            "tool_tip": "Card Age",
+            "label": "Card Age(in Days)",
+            "error": "Card Age is "
+          },
+          "show_qty_above": {
+            "tool_tip": "",
+            "label": "Show Qty Above(in Meters)",
+            "error": "Show Qty Above is "
+          },
+          "sr_date": {
+            "tool_tip": "",
+            "label": "SR DATE ",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Godown Stock Banking Report",
+            "error": ""
+          }
+        },
+        "stock_over_n_days": {
+          "make": {
+            "tool_tip": "Select Make from the dropdown list",
+            "label": "Make",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "Select Branch from the dropdown list",
+            "label": "Branch",
+            "error": ""
+          },
+          "item_main_group": {
+            "tool_tip": "Select Item Main Group from the dropdown list",
+            "label": "Item Main Group",
+            "error": ""
+          },
+          "item_sub_group": {
+            "tool_tip": "Select Item Sub Group from the dropdown list",
+            "label": "Item Sub Group",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from the dropdown list",
+            "label": "Godown",
+            "error": ""
+          },
+          "from_item_name": {
+            "tool_tip": "Select the ending item code or product code or catref no {{ nextLine }} you may enter part of your selection and select",
+            "label": "From Item Name",
+            "error": "From Item Name is "
+          },
+          "to_item_name": {
+            "tool_tip": "Enter the quantity below which you want to generate report {{ nextLine }} will display all cards with closing quantity below the entered quantity",
+            "label": "To Item Name",
+            "error": "To Item Name is "
+          },
+          "display_only": {
+            "tool_tip": "",
+            "label": "Display Only",
+            "error": ""
+          },
+          "days": {
+            "tool_tip": "",
+            "label": "Days",
+            "error": "Days is "
+          },
+          "group_by": {
+            "tool_tip": "",
+            "label": "Group By",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Stock Over N days Report",
+            "error": ""
+          }
+        },
+        "item_wise_stock_movement": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from Dropdown",
+            "label": "Godown",
+            "error": ""
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": ""
+          },
+          "from_item": {
+            "tool_tip": "",
+            "label": "From Item",
+            "error": "From Item is "
+          },
+          "to_item": {
+            "tool_tip": "",
+            "label": "To Item",
+            "error": "To Item is "
+          },
+          "item_main_group": {
+            "tool_tip": "",
+            "label": "Item Main Group",
+            "error": ""
+          },
+          "item_sub_group": {
+            "tool_tip": "",
+            "label": "Item SubGroup",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Item wise Stock Movement Report",
+            "error": ""
+          }
+        },
+        "stock_valuation_report_filter": {
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "AS ON DATE", 
+            "error": "As on Date is "
+          },
+          "stock_type": {
+            "tool_tip": "",
+            "label": "STOCK TYPE",
+            "error": ""
+          },
+          "make_type": {
+            "tool_tip": "",
+            "label": "MAKE TYPE",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "BRANCH",
+            "error": ""
+          },
+          "select_item_category": {
+            "tool_tip": "",
+            "label": "SELECT ITEM CATEGORY" ,
+            "error": ""
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "MAKE",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "",
+            "label": "GODOWN",
+            "error": ""
+          },
+          "godown_wise_stock_level": {
+            "tool_tip": "",
+            "label": "GODOWN WISE STOCK LEVEL",
+            "error": ""
+          },
+          "show_only_scrap_item": {
+            "tool_tip": "",
+            "label": "SHOW ONLY SCRAP ITEM",
+            "error": ""
+          },
+          "godown_main_group": {
+            "tool_tip": "",
+            "label": "ITEM MAIN GROUP",
+            "error": ""
+          },
+          "godown_sub_group": {
+            "tool_tip": "",
+            "label": "ITEM SUB GROUP",
+            "error": ""
+          },
+          "group_by": {
+            "tool_tip": "",
+            "label": "GROUP BY",
+            "error": "Group By is"
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "ORDER BY",
+            "error": "Order By is"
+          },
+          "show_card_above_days": {
+            "tool_tip": "",
+            "label": "SHOW CARD ABOVE DAYS",
+            "error": ""
+          },
+          "from_item_name": {
+            "tool_tip": "Select the ending item code or product code or catref no {{ nextLine }} you may enter part of your selection and select",
+            "label": "FROM ITEM NAME",
+            "error": "From Item Name is "
+          },
+          "to_item_name": {
+            "tool_tip": "Enter the quantity below which you want to generate report {{ nextLine }} will display all cards with closing quantity below the entered quantity",
+            "label": "TO ITEM NAME",
+            "error": "To Item Name is "
+          },
+          "date_radio_button": {
+            "tool_tip": "",
+            "label": "DATE",
+            "error": ""
+          },
+          "sr_date_radio_button": {
+            "tool_tip": "",
+            "label": "SR DATE",
+            "error": ""
+          },
+          "discount_radio_button": {
+            "tool_tip": "",
+            "label": "DISCOUNT",
+            "error": ""
+          },
+          "submit": {
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Stock Valuation Report",
+            "error": ""
+          }
+        },
+        "gd_wise_stock_with_stock_level": {
+          "godown": {
+            "tool_tip": "",
+            "label": "Godown",
+            "error": "Godown is "
+          },
+          "item_main_group": {
+            "tool_tip": "",
+            "label": "Item Main Group",
+            "error": ""
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": ""
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Select Report Type: ",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Godown Wise Stock With Stock Level Report",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          }
+        }
+      },
+      "challan_reports": {
+        "tax_summary": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "challan_type": {
+            "tool_tip": "",
+            "label": "Challan Type",
+            "error": "Challan Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Tax Summary Report",
+            "error": ""
+          }
+        },
+        "stock_transfer_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "from_branch": {
+            "tool_tip": "",
+            "label": "From Branch",
+            "error": ""
+          },
+          "to_branch": {
+            "tool_tip": "",
+            "label": "To Branch",
+            "error": ""
+          },
+          "stock_status": {
+            "tool_tip": "",
+            "label": "Stock Status: ",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Stock Transfer Register Report",
+            "error": ""
+          }
+        },
+        "sales_summary": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Sales Summary Report Filter",
+            "error": ""
+          },
+          "report_panel_title": {
+            "tool_tip": "",
+            "label": "Sales Summary Report",
+            "error": ""
+          },
+          "component_report_panel_title": {
+            "tool_tip": "",
+            "label": "Component Detail / Tax Report",
+            "error": ""
+          }
+        },
+        "unbilled_document": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "Select a branch from Dropdown",
+            "label": "Branch",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from Dropdown",
+            "label": "Godown",
+            "error": ""
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By:",
+            "error": ""
+          },
+          "payment_terms": {
+            "tool_tip": "",
+            "label": "Payment Terms",
+            "error": "Payment Terms is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Unbilled Document Report",
+            "error": ""
+          }
+        },
+        "sample_challan": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "date_range_more_than_year": {
+            "tool_tip": "",
+            "label": "",
+            "error": "Range of From Date and To Date Should not be more than 1 year"
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "challan_status": {
+            "tool_tip": "",
+            "label": "Challan Status: ",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Sample Challan Report",
+            "error": ""
+          }
+        },
+        "sales_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "challan_type": {
+            "tool_tip": "",
+            "label": "Challan Type ",
+            "error": "Challan Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Sales Register Report",
+            "error": ""
+          }
+        },
+        "party_clearance": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "stoppage_code": {
+            "tool_tip": "",
+            "label": "Stoppage Code",
+            "error": "Stoppage Code is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Party Clearance Report",
+            "error": ""
+          }
+        },
+        "quotation_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Quotation Register Report",
+            "error": ""
+          }
+        },
+        "proforma_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Proforma Register Report",
+            "error": ""
+          }
+        },
+        "do_pts": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "godown": {
+            "tool_tip": "Select a godown from Dropdown",
+            "label": "Godown",
+            "error": "Godown is "
+          },
+          "button_type": {
+            "tool_tip": "",
+            "label": "Button Type",
+            "error": "Button Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Do PTS Report",
+            "error": ""
+          }
+        },
+        "po_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "PO Register Report",
+            "error": ""
+          }
+        },
+        "cancelled_challan": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": ""
+          },
+          "challan_type": {
+            "tool_tip": "",
+            "label": "Challan Type",
+            "error": "Challan Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Cancelled Challan Report",
+            "error": ""
+          }
+        },
+        "ao_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Ao Register Report",
+            "error": ""
+          }
+        },
+        "polycab_acc": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "group": {
+            "tool_tip": "",
+            "label": "Group",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Polycab Account Report",
+            "error": ""
+          }
+        },
+        "broker_wise_sales": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "instructed_by": {
+            "tool_tip": "",
+            "label": "Instructed By",
+            "error": ""
+          },
+          "broker": {
+            "tool_tip": "",
+            "label": "Broker",
+            "error": ""
+          },
+          "challan_type": {
+            "tool_tip": "",
+            "label": "Challan Type",
+            "error": ""
+          },
+          "challan_no": {
+            "tool_tip": "",
+            "label": "Challan No",
+            "error": "Challan No is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "challan_status": {
+            "tool_tip": "",
+            "label": "Challan Status: ",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Broker Wise Sales Report",
+            "error": ""
+          }
+        },
+        "party_challan_item_wise": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "customer_party": {
+            "tool_tip": "",
+            "label": "Customer Party",
+            "error": "Customer Party is "
+          },
+          "supplier_party": {
+            "tool_tip": "",
+            "label": "Supplier Party",
+            "error": "Supplier Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Party Challan Item Wise Report",
+            "error": ""
+          }
+        }
+      },
+      "monthly-sales-analysis-reports": {
+        "branch-handled-by-wise-daily-sales": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": "Handled By is "
+          },
+          "date_range_more_than_year": {
+            "tool_tip": "",
+            "label": "",
+            "error": "Range of From Date and To Date Should not be more than 1 year"
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Branch Handled By Wise Sales",
+            "error": ""
+          }
+        },
+        "document-wise-data": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "document_type": {
+            "tool_tip": "",
+            "label": "Document Type",
+            "error": "Document Type is "
+          },
+          "amount_above": {
+            "tool_tip": "",
+            "label": "Amount Above RS",
+            "error": "Amount Above RS is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "main_group": {
+            "tool_tip": "",
+            "label": "Main Group",
+            "error": "Main Group is "
+          },
+          "sub_group": {
+            "tool_tip": "",
+            "label": "Subgroup",
+            "error": "Subgroup is "
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": "Make is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "from_item": {
+            "tool_tip": "",
+            "label": "From Item",
+            "error": "From Item is required"
+          },
+          "to_item": {
+            "tool_tip": "",
+            "label": "To Item",
+            "error": "To Item is required"
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "ITEM GROUP/DOCUMENT WISE ANALYSIS",
+            "error": ""
+          }
+        },
+        "broker_wise_outstanding": {
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": ""
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": ""
+          },
+          "broker": {
+            "tool_tip": "",
+            "label": "Broker",
+            "error": ""
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By",
+            "error": ""
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Broker Wise Outstanding",
+            "error": ""
+          }
+        },
+        "item_group_wise_yearly_sales": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": "Handled By is "
+          },
+          "industry": {
+            "tool_tip": "",
+            "label": "Industry",
+            "error": "Industry is "
+          },
+          "follow_by": {
+            "tool_tip": "",
+            "label": "FollowUp By",
+            "error": "FollowUp By is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "FollowUp By is "
+          },
+          "pincode": {
+            "tool_tip": "",
+            "label": "Pincode",
+            "error": "Pincode is "
+          },
+          "state": {
+            "tool_tip": "",
+            "label": "State",
+            "error": "State is "
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": "Make is "
+          },
+          "item_main_group": {
+            "tool_tip": "",
+            "label": "Item Main Group",
+            "error": "Item Main group is "
+          },
+          "item_sub_group": {
+            "tool_tip": "",
+            "label": "Item Sub Group",
+            "error": "Item Sub group is "
+          },
+          "group_by": {
+            "tool_tip": "",
+            "label": "Group By",
+            "error": "Group By is "
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By",
+            "error": "Order By is "
+          },
+          "from_item": {
+            "tool_tip": "",
+            "label": "From Item",
+            "error": "From Item is "
+          },
+          "to_item": {
+            "tool_tip": "",
+            "label": "To Item",
+            "error": "To Item is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Item Group Wise yearly Sales",
+            "error": ""
+          }
+        },
+        "state_party_yearly_sales": {
+          "group_head": {
+            "tool_tip": "",
+            "label": "Group Head",
+            "error": "Group Head is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": "Handled By is "
+          },
+          "follow_by": {
+            "tool_tip": "",
+            "label": "Follow Up By",
+            "error": "Follow Up By is "
+          },
+          "state": {
+            "tool_tip": "",
+            "label": "State",
+            "error": "State is "
+          },
+          "customer_type": {
+            "tool_tip": "",
+            "label": "Customer Type",
+            "error": "Customer Type is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "make": {
+            "tool_tip": "",
+            "label": "Make",
+            "error": "Make is "
+          },
+          "item_type": {
+            "tool_tip": "",
+            "label": "Item Type",
+            "error": "Item Type is "
+          },
+          "pincode": {
+            "tool_tip": "",
+            "label": "Pincode",
+            "error": "Pincode is "
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By",
+            "error": "Order By is "
+          },
+          "order_by_year": {
+            "tool_tip": "",
+            "label": "Order By Year",
+            "error": "Order By Year is "
+          },
+          "address": {
+            "tool_tip": "",
+            "label": "Address",
+            "error": "Address is "
+          },
+          "ph_contact": {
+            "tool_tip": "",
+            "label": "Ph/Contact",
+            "error": "Ph/Contact is "
+          },
+          "sales": {
+            "tool_tip": "",
+            "label": "Sales",
+            "error": "Sales is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Select Party",
+            "error": "Select Party is "
+          },
+          "sale_above_rs": {
+            "tool_tip": "",
+            "label": "Sale Above Rs",
+            "error": "Sale Above Rs is "
+          },
+          "sale_of_n_years": {
+            "tool_tip": "",
+            "label": "Sale of N Years",
+            "error": "Sale of N Years is "
+          },
+          "top_n_parties": {
+            "tool_tip": "",
+            "label": "Top N Parties",
+            "error": "Top N Parties is "
+          },
+          "select_party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "State Party Yearly Sales",
+            "error": ""
+          }
+        },
+        "party_wise_monthly_sales_analysis": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": "Handled By is "
+          },
+          "date_range_more_than_year": {
+            "tool_tip": "",
+            "label": "",
+            "error": "Range of From Date and To Date Should not be more than 1 year"
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Party Wise Monthly Sales Analysis Report",
+            "error": ""
+          }
+        },
+        "daily_sales_with_gp": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "date_range_more_than_year": {
+            "tool_tip": "",
+            "label": "",
+            "error": "Range of From Date and To Date Should not be more than 1 year"
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "amount_in": {
+            "tool_tip": "",
+            "label": "Amount In: ",
+            "error": "Amount In is "
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Report Type: ",
+            "error": "Report Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Daily Sales With GP Report",
+            "error": ""
+          }
+        },
+        "rh_grp_mnthly_bdgt_sls": {
+          "report_format": {
+            "tool_tip": "",
+            "label": "Report Format",
+            "error": "Report Format is "
+          },
+          "select_rhead": {
+            "tool_tip": "",
+            "label": "Select RHead",
+            "error": "RHead is "
+          },
+          "figure_in": {
+            "tool_tip": "",
+            "label": "Figure In",
+            "error": "Figure In is "
+          },
+          "amount_in": {
+            "tool_tip": "",
+            "label": "Amount In",
+            "error": "Amount In is "
+          },
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": "As On Date is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "RH GRP Monthly Budget Sales Report",
+            "error": ""
+          },
+          "full_name": {
+            "tool_tip": "",
+            "label": "FULL NAME",
+            "error": ""
+          },
+          "short_name": {
+            "tool_tip": "",
+            "label": "SHORT NAME",
+            "error": ""
+          },
+          "hide_last_year_data": {
+            "tool_tip": "",
+            "label": "HIDE LAST YEAR DATA",
+            "error": ""
+          },
+          "show_last_year_data": {
+            "tool_tip": "",
+            "label": "SHOW LAST YEAR DATA",
+            "error": ""
+          },
+          "show_history": {
+            "tool_tip": "",
+            "label": "SHOW HISTORY",
+            "error": ""
+          },
+          "hide_history": {
+            "tool_tip": "",
+            "label": "HIDE HISTORY",
+            "error": ""
+          },
+          "hide_pl_gp": {
+            "tool_tip": "",
+            "label": "HIDE PL/GP",
+            "error": ""
+          },
+          "show_pl_gp": {
+            "tool_tip": "",
+            "label": "SHOW PL/GP",
+            "error": ""
+          },
+          "show_budget_sales": {
+            "tool_tip": "",
+            "label": "SHOW BUDGET/SALES",
+            "error": ""
+          },
+          "hide_budget_sales": {
+            "tool_tip": "",
+            "label": "HIDE BUDGET/SALES",
+            "error": ""
+          },
+          "show_all": {
+            "tool_tip": "",
+            "label": "SHOW ALL",
+            "error": ""
+          },
+          "hide_all": {
+            "tool_tip": "",
+            "label": "HIDE ALL",
+            "error": ""
+          }
+        },
+        "gateway_report": {
+          "as_on_date": {
+            "tool_tip": "",
+            "label": "As On Date",
+            "error": "As On Date is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "Handled By",
+            "error": ""
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Report Type: ",
+            "error": "Report Type is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Gateway Report",
+            "error": ""
+          }
+        }
+      },
+      "account_reports": {
+        "cheque_bounce": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "date_range_more_than_year": {
+            "tool_tip": "",
+            "label": "",
+            "error": "Range of From Date and To Date Should not be more than 1 year"
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Cheque Bounce",
+            "error": ""
+          }
+        },
+        "cash_book": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Cash Book",
+            "error": ""
+          }
+        },
+        "bank_book": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "bank": {
+            "tool_tip": "",
+            "label": "Bank",
+            "error": "Bank is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Bank Book",
+            "error": ""
+          }
+        },
+        "pending_bank_reco": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "bank": {
+            "tool_tip": "",
+            "label": "Bank",
+            "error": "Bank is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Pending Bank Reco",
+            "error": ""
+          }
+        },
+        "cheque_issue_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "bank": {
+            "tool_tip": "",
+            "label": "Bank",
+            "error": "Bank is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Cheque Issue Register",
+            "error": ""
+          }
+        },
+        "expense_bill_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": ""
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": ""
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "reset": {
+            "tool_tip": "",
+            "label": "RESET",
+            "error": ""
+          },
+          "print_preview": {
+            "tool_tip": "",
+            "label": "PRINT PREVIEW",
+            "error": ""
+          },
+          "summary": {
+            "tool_tip": "",
+            "label": "TAX WISE SUMMARY",
+            "error": ""
+          },
+          "expensewisesummary": {
+            "tool_tip": "",
+            "label": "EXP WISE SUMMARY",
+            "error": ""
+          },
+          "expensewisesummaryexcel": {
+            "tool_tip": "",
+            "label": "EXP WISE SUMMARY EXCEL",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Expense Bill Register Report",
+            "error": ""
+          }
+        },
+        "pdc_clctd_pndng_dpost": {
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "HandledBy",
+            "error": "HandledBy is "
+          },
+          "days": {
+            "tool_tip": "",
+            "label": "Days",
+            "error": "Days is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "reset": {
+            "tool_tip": "",
+            "label": "RESET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "PDC Collected Pending Deposit Report",
+            "error": ""
+          }
+        },
+        "pdc_issued_pndng_clrnce": {
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "party": {
+            "tool_tip": "",
+            "label": "Party",
+            "error": "Party is "
+          },
+          "handled_by": {
+            "tool_tip": "",
+            "label": "HandledBy",
+            "error": "HandledBy is "
+          },
+          "days": {
+            "tool_tip": "",
+            "label": "Days",
+            "error": "Days is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "reset": {
+            "tool_tip": "",
+            "label": "RESET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "PDC Issued Pending Clearance Report",
+            "error": ""
+          }
+        },
+        "collection_register": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "report_type": {
+            "tool_tip": "",
+            "label": "Report Type",
+            "error": "Report Type is "
+          },
+          "order_by": {
+            "tool_tip": "",
+            "label": "Order By",
+            "error": "Order By "
+          },
+          "bank": {
+            "tool_tip": "",
+            "label": "Bank",
+            "error": "Bank is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Collection Register Report",
+            "error": ""
+          }
+        },
+        "account_ledger": {
+          "from_date": {
+            "tool_tip": "",
+            "label": "From Date",
+            "error": "From Date is "
+          },
+          "to_date": {
+            "tool_tip": "",
+            "label": "To Date",
+            "error": "To Date is "
+          },
+          "branch": {
+            "tool_tip": "",
+            "label": "Branch",
+            "error": "Branch is "
+          },
+          "submit": {
+            "tool_tip": "",
+            "label": "SUBMIT",
+            "error": ""
+          },
+          "excel_sheet": {
+            "tool_tip": "",
+            "label": "EXCEL SHEET",
+            "error": ""
+          },
+          "pdf_view": {
+            "tool_tip": "",
+            "label": "PDF View",
+            "error": ""
+          },
+          "send_mail": {
+            "tool_tip": "",
+            "label": "Send Mail",
+            "error": ""
+          },
+          "panel_title": {
+            "tool_tip": "",
+            "label": "Account Ledger",
+            "error": ""
+          }
+        }
+      }
+    }
+  }
+}

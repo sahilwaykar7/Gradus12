@@ -1,0 +1,11 @@
+{
+  "Title": "Demo de traducción",
+  "WelcomeMessage": "Bienvenido a la aplicación de demostración internacional",
+  "English": "Inglés",
+  "Spanish": "Español",
+  "demo": {
+    "title": "Übersetzungs-Demo",
+    "text": "﻿Dies ist eine einfache Applikation um die Funktionen von ngx-transalte zu demonstrieren.",
+    "greeting": "Hola {{name}}!"
+  }
+}

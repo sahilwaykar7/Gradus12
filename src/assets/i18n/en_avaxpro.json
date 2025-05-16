@@ -1,0 +1,213 @@
+{
+  "Title": "Translation demo",
+  "WelcomeMessage": "Welcome to the international demo application",
+  "English": "English",
+  "Spanish": "Spanish",
+  "demo": {
+    "title": "Translation demo",
+    "text": "This is a simple demonstration app for ngx-translate",
+    "greeting": "Hello {{name}}!"
+  },
+  "session": {
+    "common": {
+      "field": {
+        "branch": {
+          "STRP001001": "Select a branch from the dropdown list",
+          "label": "Branch",
+          "error": ""
+        },
+        "finyear": {
+          "STRP001001": "Select a financial year from the dropdown list",
+          "label": "Financial Year",
+          "error": ""
+        },
+        "godown": {
+          "STRP001001": "Select a godown from the dropdown list",
+          "label": "Godown",
+          "error": ""
+        }
+      }
+    },
+    "entry": {
+      "discrepancy": {
+        "discrepancy_no": {
+          "STRP001001": "Enter the discrepancy no below",
+          "label": "Discrepancy No",
+          "error": ""
+        },
+        "reported_by": {
+          "STRP001001": "Select a reported by from the dropdown list",
+          "label": "Reported By",
+          "error": ""
+        },
+        "date": {
+          "STRP001001": "Select a date",
+          "label": "Date",
+          "error": ""
+        },
+        "remark": {
+          "STRP001001": "Enter the remark below",
+          "label": "Remark",
+          "error": ""
+        }
+      },
+      "breakup": {
+        "breakup_no": {
+          "STRP001001": "Enter the Breakup no below",
+          "label": "Breakup No",
+          "error": ""
+        },
+        "card_no": {
+          "STRP001001": "Enter the Card No below",
+          "label": "Card No",
+          "error": ""
+        },
+        "suffix": {
+          "STRP001001": "Enter the Suffix below",
+          "label": "Suffix ",
+          "error": ""
+        },
+        "inout_no": {
+          "STRP001001": "Enter the Inout No below",
+          "label": "Inout No",
+          "error": ""
+        }
+      },
+      "stock_receipt": {
+        "sr_no": {
+          "STRP001001": "Enter the Stock Receipt no below",
+          "label": "Sr No",
+          "error": ""
+        },
+        "sr_type": {
+          "STRP001001": "Select a sr type from the dropdown list",
+          "label": "Sr Type ",
+          "error": ""
+        },
+        "sr_date": {
+          "STRP001001": "Select SR Date",
+          "label": "Sr Date",
+          "error": ""
+        },
+        "sr_sourcing": {
+          "STRP001001": "Select SR Sourcing",
+          "label": "Sr Sourcing",
+          "error": ""
+        },
+        "excise_subtype": {
+          "STRP001001": "Select Excise SubType",
+          "label": "Importer Invoice",
+          "error": ""
+        },
+        "gst_billed_to_party": {
+          "STRP001001": "Enter GST no of billed to party ",
+          "label": "GST No. of Billed to party",
+          "error": ""
+        },
+        "sr_card_type": {
+          "STRP001001": "Select Sr Card Type ",
+          "label": "Sr Card Type",
+          "error": ""
+        },
+        "party_type_input": {
+          "STRP001001": "Enter party code/name or party GST no  ",
+          "label": "Party Code/Name or GST no",
+          "error": ""
+        },
+        "party_details": {
+          "STRP001001": "Select Party Details ",
+          "label": "Party Details ",
+          "error": ""
+        },
+        "sr_challan_bill_date": {
+          "STRP001001": "Select Party challan/ bill date  ",
+          "label": "Party Challan/Bill Date ",
+          "error": ""
+        },
+        "sr_challan_bill_no": {
+          "STRP001001": "Enter Party challan/ bill no",
+          "label": "Party Challan/Bill no ",
+          "error": ""
+        },
+        "bill_amount": {
+          "STRP001001": "Enter Bill Amount",
+          "label": "Bill Amount ",
+          "error": ""
+        },
+        "truck_no": {
+          "STRP001001": "Enter Truck No",
+          "label": "Truck No ",
+          "error": ""
+        },
+        "exchange_rate": {
+          "STRP001001": "Enter Exchange rate",
+          "label": "Exchange Rate ",
+          "error": ""
+        },
+        "order_by_pic": {
+          "STRP001001": "Select Order by / Pic",
+          "label": "Order By/PIC ",
+          "error": ""
+        },
+        "from_godown": {
+          "STRP001001": "Select  from godown",
+          "label": "From Godown",
+          "error": ""
+        }
+      }
+    },
+    "query": {
+      "stock_query": {
+        "item_code": {
+          "STRP001001": "Enter the item code or name",
+          "label": "Item Code/Name",
+          "error": ""
+        },
+        "user_type": {
+          "STRP001001": "Please Select user type",
+          "label": "User Type",
+          "error": ""
+        },
+        "user_type_input": {
+          "STRP001001": "Please enter user /broker/ customer code or name to search",
+          "label": "User/Broker/Customer Code/Name",
+          "error": ""
+        },
+        "make": {
+          "STRP001001": "Please enter make",
+          "label": "Make",
+          "error": ""
+        },
+        "state": {
+          "STRP001001": "Please select State",
+          "label": "State",
+          "error": ""
+        },
+        "branch": {
+          "STRP001001": "Please select Branch",
+          "label": "Branch",
+          "error": ""
+        },
+        "godown": {
+          "STRP001001": "Please select Godown",
+          "label": "Godown",
+          "error": ""
+        },
+        "qty": {
+          "STRP001001": "Please Enter qty",
+          "label": "Quantity",
+          "error": ""
+        }
+      }
+    },
+    "master": {
+      "miscellaneous_master": {
+        "update_handled_by": {
+          "STRP001001": "Select a handled by from the dropdown list",
+          "label": "Handlded By",
+          "error": ""
+        }
+      }
+    }
+  }
+}
