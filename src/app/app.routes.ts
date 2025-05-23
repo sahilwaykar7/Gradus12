@@ -59,12 +59,9 @@ export const routes: Routes = [
 
 { path: '', redirectTo: ConstantsService.ROUTE_NON_SESSION_LOGIN, pathMatch: 'full' },
       
-// {
-//     path: ConstantsService.ROUTE_LOGIN,
-//     loadComponent: () => import('./feature/non-session/login/login.component').then(c => c.LoginComponent),
-// },
 {
     path: ConstantsService.ROUTE_NON_SESSION,
+    
     loadChildren: () => import('./feature/non-session/non-session.routing').then(m => m.nonSessionRoutes),
 },
 {

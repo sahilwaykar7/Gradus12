@@ -6,7 +6,7 @@ export const environment = {
     production: false,
     
     localUrl: 'http://localhost:8091/avaxpro/api',
-    baseUrl:  'http://15.206.59.170/AvaxPro/avaxpro/api',
+    baseUrl:  'http://localhost:8091/avaxpro/api',
     loginToken: 'BearereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMDEwIiwiaWF0IjoxNzQ3MDQ1MDgyfQ.RL2Sl96PZOqGf0pPDaNKMHaTr8N0B01NjsP1-GWZkiLIK-Mf6B7ZMAtQ1g0JLDbFIIWmtwzLqAhe-srp3MBi_g',
     routerUrl:'/session/'
   }

@@ -7,7 +7,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 import { CustomOverlayContainer } from './theme/utils/custom-overlay-container';
 import { HttpClientInMemoryWebApiModule, InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { UsersData } from '@data/users-data';
-import { HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns'; 
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -40,6 +40,8 @@ export const appConfig: ApplicationConfig = {
     // })),
     
     { provide: OverlayContainer, useClass: CustomOverlayContainer },
+  
+  
   ]
 };
 

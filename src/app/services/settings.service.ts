@@ -11,7 +11,8 @@ export class Settings {
               public menuType: string,
               public theme: string,
               public rtl: boolean,
-              public hasFooter: boolean) { }
+              public hasFooter?:boolean
+            ) { }
 }
 
 @Injectable({
@@ -30,7 +31,7 @@ export class SettingsService {
     'default',      //default, compact, mini
     'indigo-light', //indigo-light, teal-light, red-light, blue-dark, green-dark, pink-dark
     false,          // true = rtl, false = ltr
-    true            // true = has footer, false = no footer
+    true,         // true = has footer, false = no footer
   )
 
   constructor() { }
