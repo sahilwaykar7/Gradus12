@@ -1,4 +1,4 @@
-@for (menu of parentMenu; track menu.menuParentId) { 
+@for (menu of parentMenu; track menu.id) { 
     <div class="menu-item">
         @if (menu.routerLink && !menu.hasSubMenu) {
             <a mat-button fxLayout="row" [fxLayoutAlign]="(settings.menuType=='default') ? 'start center' : 'center center'"
